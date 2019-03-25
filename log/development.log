@@ -1848,3 +1848,61 @@ Completed 200 OK in 5215ms (Views: 70.5ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 1920ms (Views: 48.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-25 09:09:02 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1832ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-25 09:09:06 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 1933ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planet?planet_url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F3%2F" for 127.0.0.1 at 2019-03-25 09:09:10 -0300
+Processing by MoviesController#planet as HTML
+  Parameters: {"planet_url"=>"https://swapi.co/api/planets/3/"}
+  Rendering movies/planet.html.erb within layouts/application
+  Rendered movies/planet.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1299ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planet?planet_url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F3%2F" for 127.0.0.1 at 2019-03-25 09:33:44 -0300
+Processing by MoviesController#planet as HTML
+  Parameters: {"planet_url"=>"https://swapi.co/api/planets/3/"}
+  Rendering movies/planet.html.erb within layouts/application
+  Rendered movies/planet.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1300ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-25 10:49:38 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2378ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-25 10:52:36 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+Completed 500 Internal Server Error in 20020ms (ActiveRecord: 0.0ms)
+
+
+  
+SocketError (Failed to open TCP connection to swapi.co:443 (getaddrinfo: Name or service not known)):
+  
+app/controllers/movies_controller.rb:7:in `show'
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-25 10:53:06 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+Completed 500 Internal Server Error in 1283ms (ActiveRecord: 0.0ms)
+
+
+  
+SocketError (Failed to open TCP connection to swapi.co:443 (getaddrinfo: Name or service not known)):
+  
+app/controllers/movies_controller.rb:7:in `show'
