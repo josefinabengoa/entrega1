@@ -1,0 +1,59 @@
+<h1> <%= @starship['name'] %> </h1>
+
+<div>
+  <b> Modelo: </b> <span> <%= @starship['model'] %> </span>
+</div>
+<div>
+  <b> Clase: </b> <span> <%= @starship['starship_class'] %> </span>
+</div>
+<div>
+  <b> Fabricante: </b> <span> <%= @starship['manufacturer'] %> </span>
+</div>
+<div>
+  <b> Precio (creditos galacticos): </b> <span> <%= @starship['cost_in_credits'] %> </span>
+</div>
+<div>
+  <b> Largo (m): </b> <span> <%= @starship['length'] %> </span>
+</div>
+<div>
+  <b> Numero necesario de tripulantes: </b> <span> <%= @starship['crew'] %> </span>
+</div>
+<div>
+  <b> Maximo de pasajeros: </b> <span> <%= @starship['passengers'] %> </span>
+</div>
+<div>
+  <b> Velocidad maxima: </b> <span> <%= @starship['max_atmosphere_speed'] %> </span>
+</div>
+<div>
+  <b> Hiperdrive: </b> <span> <%= @starship['hyperdrive_rating'] %> </span>
+</div>
+<div>
+  <b> MGLT: </b> <span> <%= @starship['MGLT'] %> </span>
+</div>
+<div>
+  <b> Capacidad Cargo: </b> <span> <%= @starship['cargo_capacity'] %> </span>
+</div>
+<div>
+  <b> Autonomia de recursos: </b> <span> <%= @starship['consumables'] %> </span>
+</div>
+
+</br>
+
+<div class="movie_associates">
+  <b> Peliculas: </b>
+  <ul>
+    <% @movies.each do |movie| %>
+    <li>
+      <%= link_to movie['title'], movie_path(movie_url: movie['url']) %>
+    </li>
+    <% end %>
+  </ul>
+  <b> Pilotos: </b>
+  <ul>
+    <% @characters.each do |character| %>
+    <li>
+      <%= link_to character['name'], character_path(character_url: character['url']) %>
+    </li>
+    <% end %>
+  </ul>
+</div>

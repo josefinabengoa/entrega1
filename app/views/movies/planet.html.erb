@@ -1,0 +1,48 @@
+<h1> <%= @planet['name'] %> </h1>
+
+<div>
+  <b> Diametro: </b> <span> <%= @planet['diameter'] %> </span>
+</div>
+<div>
+  <b> Periodo de rotacion: </b> <span> <%= @planet['rotation_period'] %> </span>
+</div>
+<div>
+  <b> Periodo de orbita: </b> <span> <%= @planet['orbital_period'] %> </span>
+</div>
+<div>
+  <b> Gravedad: </b> <span> <%= @planet['gravity'] %> </span>
+</div>
+<div>
+  <b> Poblacion: </b> <span> <%= @planet['population'] %> </span>
+</div>
+<div>
+  <b> Clima: </b> <span> <%= @planet['climate'] %> </span>
+</div>
+<div>
+  <b> Terreno: </b> <span> <%= @planet['terrain'] %> </span>
+</div>
+<div>
+  <b> Porcentaje acuatico de la superficie: </b> <span> <%= @planet['surface_water'] %> </span>
+</div>
+<div>
+
+</br>
+
+<div class="movie_associates">
+  <b> Peliculas: </b>
+  <ul>
+    <% @movies.each do |movie| %>
+    <li>
+      <%= link_to movie['title'], movie_path(movie_url: movie['url']) %>
+    </li>
+    <% end %>
+  </ul>
+  <b> Residentes: </b>
+  <ul>
+    <% @characters.each do |character| %>
+    <li>
+      <%= link_to character['name'], character_path(character_url: character['url']) %>
+    </li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,44 @@
+<h1> <%= @character['name'] %> </h1>
+
+<div>
+  <b> Año de nacimiento: </b> <span> <%= @character['birth_year'] %> </span>
+</div>
+<div>
+  <b> Color de ojos: </b> <span> <%= @character['eye_color'] %> </span>
+</div>
+<div>
+  <b> Sexo: </b> <span> <%= @character['gender'] %> </span>
+</div>
+<div>
+  <b> Color de pelo: </b> <span> <%= @character['hair_color'] %> </span>
+</div>
+<div>
+  <b> Altura(cm): </b> <span> <%= @character['height'] %> </span>
+</div>
+<div>
+  <b> Masa (kg): </b> <span> <%= @character['mass'] %> </span>
+</div>
+<div>
+  <b> Planeta natal: </b> <span> <%= @home_planet['name'] %> </span>
+</div>
+
+</br>
+
+<div class="movie_associates">
+  <b> Peliculas: </b>
+  <ul>
+    <% @movies.each do |movie| %>
+    <li>
+      <%= link_to movie['title'], movie_path(movie_url: movie['url']) %>
+    </li>
+    <% end %>
+  </ul>
+  <b> Naves: </b>
+  <ul>
+    <% @starships.each do |starship| %>
+    <li>
+      <%= link_to starship['name'], starship_path(starship_url: starship['url']) %>
+    </li>
+    <% end %>
+  </ul>
+</div>

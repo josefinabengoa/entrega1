@@ -1,0 +1,41 @@
+<h1> <%= @movie['title'] %> - Episode <%= @movie['episode_id'] %> </h1>
+<p> <%= @movie['opening_crawl'] %> </p>
+
+<div>
+  <b> Director: </b> <span> <%= @movie['director'] %> </span>
+</div>
+<div>
+  <b> Productor(es): </b> <span> <%= @movie['producer'] %> </span>
+</div>
+<div>
+  <b> Fecha de estreno: </b> <span> <%= @movie['release_date'] %> </span>
+</div>
+
+</br>
+
+<div class="movie_associates">
+  <b> Personajes: </b>
+  <ul>
+    <% @characters.each do |character| %>
+    <li>
+      <%= link_to character['name'], character_path(character_url: character['url']) %>
+    </li>
+    <% end %>
+  </ul>
+  <b> Naves: </b>
+  <ul>
+    <% @starships.each do |starship| %>
+    <li>
+      <%= link_to starship['name'], starship_path(starship_url: starship['url']) %>
+    </li>
+    <% end %>
+  </ul>
+  <b> Planetas: </b>
+  <ul>
+    <% @planets.each do |planet| %>
+    <li>
+      <%= link_to planet['name'], planet_path(planet_url: planet['url']) %>
+    </li>
+    <% end %>
+  </ul>
+</div>

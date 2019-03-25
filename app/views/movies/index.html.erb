@@ -1,0 +1,22 @@
+<h1> Peliculas </h1>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Año</th>
+    <th>Numero de Episodio</th>
+    <th>Productores</th>
+    <th>Director</th>
+    <th></th>
+  </tr>
+  <% @movies.each do |movie| %>
+    <tr>
+      <td> <%= movie["title"] %> </td>
+      <td> <%= movie["release_date"] %> </td>
+      <td> <%= movie["episode_id"] %> </td>
+      <td> <%= movie["producer"] %> </td>
+      <td> <%= movie["director"] %> </td>
+      <td> <%= button_to 'Ver Mas', movie_path, method: :get, params: { movie_url: movie["url"] } %> </td>
+    </tr>
+  <% end %>
+</table>

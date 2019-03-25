@@ -1,0 +1,1850 @@
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:00:04 -0300
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with 'primary' found.):
+  
+activerecord (5.2.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1009:in `retrieve_connection'
+activerecord (5.2.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:08:39 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/josefinabengoa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/josefinabengoa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 11ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:12:51 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/josefinabengoa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/josefinabengoa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:12:53 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/josefinabengoa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/josefinabengoa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:12:54 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/josefinabengoa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/josefinabengoa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (8.3ms)
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:26:12 -0300
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant MoviesController::HTTParty):
+  
+app/controllers/movies_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:26:31 -0300
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant MoviesController::HTTParty):
+  
+app/controllers/movies_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:26:39 -0300
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant MoviesController::HTTParty):
+  
+app/controllers/movies_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:28:24 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1392ms (Views: 518.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:29:13 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 686ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:30:41 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 793ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:31:31 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2078ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:49:49 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1939ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:50:52 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (19.6ms)
+Completed 500 Internal Server Error in 2933ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for "results":String):
+     6:     <th>Productores</th>
+     7:     <th>Director</th>
+     8:   </tr>
+     9:   <% @movies.each do |movie| %>
+    10:     <tr>
+    11:       <td>movie["title"]</td>
+    12:       <td>Maria Anders</td>
+  
+app/views/movies/index.html.erb:9:in `_app_views_movies_index_html_erb__1301986502373542211_69999143040360'
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:51:47 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2102ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:52:37 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1783ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 13:55:06 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1905ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 14:09:57 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 14147ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:10:14 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2019-03-24 14:10:15 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-24 14:11:40 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 12803ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:14:30 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:16:42 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5270ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:17:34 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2729ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:18:10 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2480ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:18:55 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8380ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:24:39 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13571ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:28:07 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16166ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:30:24 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10074ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:30:43 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6325ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:33:08 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+Completed 500 Internal Server Error in 9038ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNRESET (Connection reset by peer - SSL_connect):
+  
+app/controllers/movies_controller.rb:7:in `show'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:33:38 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+Completed 500 Internal Server Error in 2597ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:17:in `show'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:34:07 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16288ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:38:01 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (211.5ms)
+Completed 500 Internal Server Error in 3187ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `movie' for #<#<Class:0x00007ff49ca9ace8>:0x00007ff49d3e55a0>
+Did you mean?  @movie):
+    1: <h1> <%= movie['title'] %> - Episode <%= movie['episode_id'] %> </h1>
+    2: <p> <%= movie['opening_crawl'] %> </p>
+  
+app/views/movies/show.html.erb:1:in `_app_views_movies_show_html_erb___2067356415026934792_70344293431120'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:38:22 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2811ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:42:08 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 3134ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/josefinabengoa/Documentos/TI/entrega1/app/views/movies/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+'.freeze;   @characters each do |character| 
+                        ^~~~):
+  
+app/views/movies/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:42:57 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 2289ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:44:58 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3427ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:46:03 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2849ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 14:46:45 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2852ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 14:46:58 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3927ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 14:48:52 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 5759ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 14:50:24 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4841ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 14:51:25 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9536ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 14:52:01 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5178ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 14:52:58 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4864ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movsdf" for 127.0.0.1 at 2019-03-24 14:59:59 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/movsdf"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movsdf" for 127.0.0.1 at 2019-03-24 15:03:10 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/movsdf"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 15:03:15 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 4181ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F2%2F" for 127.0.0.1 at 2019-03-24 15:03:24 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 15:06:57 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 7694ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F33%2F" for 127.0.0.1 at 2019-03-24 15:07:08 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F33%2F" for 127.0.0.1 at 2019-03-24 15:08:45 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 15:08:51 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 6164ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 15:10:34 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 4292ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 15:13:28 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 4082ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F65%2F" for 127.0.0.1 at 2019-03-24 15:13:33 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F65%2F" for 127.0.0.1 at 2019-03-24 15:17:41 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 15:17:45 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 3913ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F3%2F" for 127.0.0.1 at 2019-03-24 15:17:50 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F6%2F" for 127.0.0.1 at 2019-03-24 15:18:10 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 15:19:03 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 4241ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"character", :character_url=>"https://swapi.co/api/people/77/", :controller=>"movies"}, possible unmatched constraints: [:character_url]):
+    18:   <ul>
+    19:     <% @characters.each do |character| %>
+    20:     <li>
+    21:       <%= link_to character['name'], character_path(character_url: character['url']) %>
+    22:     </li>
+    23:     <% end %>
+    24:   </ul>
+  
+app/views/movies/show.html.erb:21:in `block in _app_views_movies_show_html_erb___1248694703339110031_69967466814940'
+app/views/movies/show.html.erb:19:in `each'
+app/views/movies/show.html.erb:19:in `_app_views_movies_show_html_erb___1248694703339110031_69967466814940'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 15:24:44 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 4212ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"character", :character=>{:url=>"https://swapi.co/api/people/2/"}, :controller=>"movies"}, missing required keys: [:character_url]):
+    18:   <ul>
+    19:     <% @characters.each do |character| %>
+    20:     <li>
+    21:       <%= link_to character['name'], character_path(character: { url: character['url'] }) %>
+    22:     </li>
+    23:     <% end %>
+    24:   </ul>
+  
+app/views/movies/show.html.erb:21:in `block in _app_views_movies_show_html_erb___1248694703339110031_69967807725240'
+app/views/movies/show.html.erb:19:in `each'
+app/views/movies/show.html.erb:19:in `_app_views_movies_show_html_erb___1248694703339110031_69967807725240'
+Started GET "/" for 127.0.0.1 at 2019-03-24 15:24:55 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 1785ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F2%2F" for 127.0.0.1 at 2019-03-24 15:24:58 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/2/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 3051ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"character", :character=>{:url=>"https://swapi.co/api/people/3/"}, :controller=>"movies"}, missing required keys: [:character_url]):
+    18:   <ul>
+    19:     <% @characters.each do |character| %>
+    20:     <li>
+    21:       <%= link_to character['name'], character_path(character: { url: character['url'] }) %>
+    22:     </li>
+    23:     <% end %>
+    24:   </ul>
+  
+app/views/movies/show.html.erb:21:in `block in _app_views_movies_show_html_erb__148715361656678696_69870271821160'
+app/views/movies/show.html.erb:19:in `each'
+app/views/movies/show.html.erb:19:in `_app_views_movies_show_html_erb__148715361656678696_69870271821160'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F2%2F" for 127.0.0.1 at 2019-03-24 15:25:31 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/2/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 3395ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F2%2F" for 127.0.0.1 at 2019-03-24 15:41:52 -0300
+  
+ArgumentError (Invalid route name, already in use: 'movie' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:8:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2019-03-24 15:46:40 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 2472ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"movies"}, missing required keys: [:movie]):
+    16:       <td> <%= movie["episode_id"] %> </td>
+    17:       <td> <%= movie["producer"] %> </td>
+    18:       <td> <%= movie["director"] %> </td>
+    19:       <td> <%= button_to 'Ver Mas', movie_path, method: :get, params: { movie: { url: movie["url"] }, method: :get } %> </td>
+    20:     </tr>
+    21:   <% end %>
+    22: </table>
+  
+app/views/movies/index.html.erb:19:in `block in _app_views_movies_index_html_erb__1455298368088136977_70095644895160'
+app/views/movies/index.html.erb:12:in `each'
+app/views/movies/index.html.erb:12:in `_app_views_movies_index_html_erb__1455298368088136977_70095644895160'
+Started GET "/" for 127.0.0.1 at 2019-03-24 15:47:10 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 2548ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"movies"}, missing required keys: [:movie]):
+    16:       <td> <%= movie["episode_id"] %> </td>
+    17:       <td> <%= movie["producer"] %> </td>
+    18:       <td> <%= movie["director"] %> </td>
+    19:       <td> <%= button_to 'Ver Mas', movie_path, method: :get, params: { movie: { url: movie["url"] }, method: :get } %> </td>
+    20:     </tr>
+    21:   <% end %>
+    22: </table>
+  
+app/views/movies/index.html.erb:19:in `block in _app_views_movies_index_html_erb___1354530972277525832_69914622158700'
+app/views/movies/index.html.erb:12:in `each'
+app/views/movies/index.html.erb:12:in `_app_views_movies_index_html_erb___1354530972277525832_69914622158700'
+Started GET "/" for 127.0.0.1 at 2019-03-24 15:48:13 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 2929ms (Views: 138.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie/url=https%253A%252F%252Fswapi.co%252Fapi%252Ffilms%252F1%252F" for 127.0.0.1 at 2019-03-24 15:48:18 -0300
+Processing by MoviesController#show as 
+  Parameters: {"movie"=>"url=https%3A%2F%2Fswapi"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/movies_controller.rb:7:in `show'
+Started GET "/" for 127.0.0.1 at 2019-03-24 15:49:43 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 3177ms (Views: 130.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 15:49:48 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:7:in `show'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 15:50:04 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 3822ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/josefinabengoa/Documentos/TI/entrega1/app/views/movies/show.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/josefinabengoa/Documentos/TI/entrega1/app/views/movies/show.html.erb:44: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/josefinabengoa/Documentos/TI/entrega1/app/views/movies/show.html.erb:46: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/movies/show.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+app/views/movies/show.html.erb:44: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/movies/show.html.erb:46: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 15:50:50 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 3643ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F5%252F" for 127.0.0.1 at 2019-03-24 15:50:55 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character"=>"url=https%3A%2F%2Fswapi"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/movies_controller.rb:32:in `character'
+Started GET "/starship/url=https%253A%252F%252Fswapi.co%252Fapi%252Fstarships%252F9%252F" for 127.0.0.1 at 2019-03-24 15:50:57 -0300
+Processing by MoviesController#starship as 
+  Parameters: {"starship"=>"url=https%3A%2F%2Fswapi"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planet/url=https%253A%252F%252Fswapi.co%252Fapi%252Fplanets%252F3%252F" for 127.0.0.1 at 2019-03-24 15:51:00 -0300
+  
+AbstractController::ActionNotFound (The action 'planet' could not be found for MoviesController):
+  
+actionpack (5.2.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/planet/url=https%253A%252F%252Fswapi.co%252Fapi%252Fplanets%252F3%252F" for 127.0.0.1 at 2019-03-24 15:51:10 -0300
+  
+AbstractController::ActionNotFound (The action 'planet' could not be found for MoviesController):
+  
+actionpack (5.2.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-24 15:51:18 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 3097ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 15:52:36 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 3304ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planet/url=https%253A%252F%252Fswapi.co%252Fapi%252Fplanets%252F1%252F" for 127.0.0.1 at 2019-03-24 15:52:41 -0300
+Processing by MoviesController#planet as 
+  Parameters: {"planet"=>"url=https%3A%2F%2Fswapi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:40:in `planet'
+Started GET "/starship/url=https%253A%252F%252Fswapi.co%252Fapi%252Fstarships%252F3%252F" for 127.0.0.1 at 2019-03-24 15:53:17 -0300
+Processing by MoviesController#starship as 
+  Parameters: {"starship"=>"url=https%3A%2F%2Fswapi"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planet/url=https%253A%252F%252Fswapi.co%252Fapi%252Fplanets%252F2%252F" for 127.0.0.1 at 2019-03-24 15:53:21 -0300
+Processing by MoviesController#planet as 
+  Parameters: {"planet"=>"url=https%3A%2F%2Fswapi"}
+  Rendering movies/planet.html.erb within layouts/application
+  Rendered movies/planet.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 15:53:24 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character"=>"url=https%3A%2F%2Fswapi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/movies_controller.rb:32:in `character'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 15:54:18 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character"=>"url=https%3A%2F%2Fswapi"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/movies_controller.rb:32:in `character'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 15:54:21 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character"=>"url=https%3A%2F%2Fswapi"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/movies_controller.rb:32:in `character'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 15:54:50 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character"=>"url=https%3A%2F%2Fswapi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/movies_controller.rb:33:in `character'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 15:56:12 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character"=>"url=https%3A%2F%2Fswapi"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/movies_controller.rb:33:in `character'
+Started GET "/starship/url=https%253A%252F%252Fswapi.co%252Fapi%252Fstarships%252F3%252F" for 127.0.0.1 at 2019-03-24 15:58:20 -0300
+Processing by MoviesController#starship as 
+  Parameters: {"starship"=>"url=https%3A%2F%2Fswapi"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 127ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starship/url=https%253A%252F%252Fswapi.co%252Fapi%252Fstarships%252F3%252F" for 127.0.0.1 at 2019-03-24 16:00:37 -0300
+Processing by MoviesController#starship as 
+  Parameters: {"starship"=>"url=https%3A%2F%2Fswapi"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 16:00:42 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 16:01:41 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 16:01:46 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 16:02:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:03:15 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 3879ms (Views: 182.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F12%252F" for 127.0.0.1 at 2019-03-24 16:03:20 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F12%252F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F12%252F" for 127.0.0.1 at 2019-03-24 16:04:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F12%252F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:04:11 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 3352ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 16:04:16 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F" for 127.0.0.1 at 2019-03-24 16:05:52 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/url=https%253A%252F%252Fswapi.co%252Fapi%252Fpeople%252F7%252F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:06:04 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 3080ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F1%2F" for 127.0.0.1 at 2019-03-24 16:06:08 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F1%2F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F1%2F" for 127.0.0.1 at 2019-03-24 16:06:55 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms)
+
+
+  
+SocketError (Failed to open TCP connection to swapi:443 (getaddrinfo: Name or service not known)):
+  
+app/controllers/movies_controller.rb:33:in `character'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:07:41 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 3442ms (Views: 177.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F2%2F" for 127.0.0.1 at 2019-03-24 16:07:46 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F2%2F"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movie?method=get&movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:09:31 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"method"=>"get", "movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 4141ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"character", :character_url=>"https://swapi.co/api/people/16/", :controller=>"movies"}, possible unmatched constraints: [:character_url]):
+    18:   <ul>
+    19:     <% @characters.each do |character| %>
+    20:     <li>
+    21:       <%= link_to character['name'], character_path(character_url: character['url']) %>
+    22:     </li>
+    23:     <% end %>
+    24:   </ul>
+  
+app/views/movies/show.html.erb:21:in `block in _app_views_movies_show_html_erb__2608202514931438736_70306546396980'
+app/views/movies/show.html.erb:19:in `each'
+app/views/movies/show.html.erb:19:in `_app_views_movies_show_html_erb__2608202514931438736_70306546396980'
+Started GET "/" for 127.0.0.1 at 2019-03-24 16:19:32 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 4876ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:19:38 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (17.1ms)
+Completed 500 Internal Server Error in 2714ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"starship", :controller=>"movies", :starship=>{:url=>"https://swapi.co/api/starships/5/"}}, missing required keys: [:starship_url]):
+    26:   <ul>
+    27:     <% @starships.each do |starship| %>
+    28:     <li>
+    29:       <%= link_to starship['name'], starship_path(starship: { url: starship['url'] }) %>
+    30:     </li>
+    31:     <% end %>
+    32:   </ul>
+  
+app/views/movies/show.html.erb:29:in `block in _app_views_movies_show_html_erb___2004747340457754911_70220206646620'
+app/views/movies/show.html.erb:27:in `each'
+app/views/movies/show.html.erb:27:in `_app_views_movies_show_html_erb___2004747340457754911_70220206646620'
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:20:44 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 3326ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F3%2F" for 127.0.0.1 at 2019-03-24 16:20:51 -0300
+Processing by MoviesController#character as 
+  Parameters: {"character_url"=>"https://swapi"}
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+
+  
+SocketError (Failed to open TCP connection to swapi:443 (getaddrinfo: Name or service not known)):
+  
+app/controllers/movies_controller.rb:33:in `character'
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:23:05 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 9179ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F4%2F" for 127.0.0.1 at 2019-03-24 16:23:15 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/4/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 1371ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    22: <div class="movie_associates">
+    23:   <b> Peliculas: </b>
+    24:   <ul>
+    25:     <% @movies.each do |movie| %>
+    26:     <li>
+    27:       <%= link_to movie['name'], movie_path(movie_url: movie['url']) %>
+    28:     </li>
+  
+app/views/movies/character.html.erb:25:in `_app_views_movies_character_html_erb__3281612740273529171_70313614573820'
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F4%2F" for 127.0.0.1 at 2019-03-24 16:25:20 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/4/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1264ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F4%2F" for 127.0.0.1 at 2019-03-24 16:28:45 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/4/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1763ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F4%2F" for 127.0.0.1 at 2019-03-24 16:32:26 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/4/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 2732ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/josefinabengoa/Documentos/TI/entrega1/app/views/movies/character.html.erb:40: syntax error, unexpected tSTRING_DEND, expecting ')'
+...starship_url: starship['url'] }) );@output_buffer.safe_appen...
+...                              ^
+/home/josefinabengoa/Documentos/TI/entrega1/app/views/movies/character.html.erb:42: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/josefinabengoa/Documentos/TI/entrega1/app/views/movies/character.html.erb:47: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/josefinabengoa/Documentos/TI/entrega1/app/views/movies/character.html.erb:49: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/movies/character.html.erb:40: syntax error, unexpected tSTRING_DEND, expecting ')'
+app/views/movies/character.html.erb:42: syntax error, unexpected keyword_end, expecting ')'
+app/views/movies/character.html.erb:47: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/movies/character.html.erb:49: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F4%2F" for 127.0.0.1 at 2019-03-24 16:32:52 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/4/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 3146ms (Views: 196.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starship/https:%2F%2Fswapi.co%2Fapi%2Fstarships%2F13%2F" for 127.0.0.1 at 2019-03-24 16:33:06 -0300
+Processing by MoviesController#starship as 
+  Parameters: {"starship_url"=>"https://swapi"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F4%2F" for 127.0.0.1 at 2019-03-24 16:33:29 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/4/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2767ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:33:34 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 2882ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F14%2F" for 127.0.0.1 at 2019-03-24 16:33:38 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/14/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1978ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 16:33:42 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 2543ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character/https:%2F%2Fswapi.co%2Fapi%2Fpeople%2F14%2F" for 127.0.0.1 at 2019-03-24 16:33:49 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/14/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2344ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-24 17:45:28 -0300
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 2923ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 17:45:39 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 2850ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planet?planet_url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F2%2F" for 127.0.0.1 at 2019-03-24 17:45:44 -0300
+Processing by MoviesController#planet as HTML
+  Parameters: {"planet_url"=>"https://swapi.co/api/planets/2/"}
+  Rendering movies/planet.html.erb within layouts/application
+  Rendered movies/planet.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F11%2F" for 127.0.0.1 at 2019-03-24 17:45:47 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/11/"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1> <%= @character['name'] %> </h1>
+    2: 
+    3: <div>
+    4:   <b> Año de nacimiento: </b> <span> <%= @character['birth_year'] %> </span>
+  
+app/views/movies/starship.html.erb:1:in `_app_views_movies_starship_html_erb___3315455876599150787_70252109008180'
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-24 17:45:51 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/1/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2539ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character?character_url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F4%2F" for 127.0.0.1 at 2019-03-24 17:45:55 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/4/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2172ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-24 17:45:59 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/3/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 3223ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character?character_url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F10%2F" for 127.0.0.1 at 2019-03-24 17:46:03 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/10/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 2366ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F48%2F" for 127.0.0.1 at 2019-03-24 17:46:07 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/48/"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1> <%= @character['name'] %> </h1>
+    2: 
+    3: <div>
+    4:   <b> Año de nacimiento: </b> <span> <%= @character['birth_year'] %> </span>
+  
+app/views/movies/starship.html.erb:1:in `_app_views_movies_starship_html_erb___3315455876599150787_70252109398540'
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F48%2F" for 127.0.0.1 at 2019-03-24 17:58:43 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/48/"}
+Completed 500 Internal Server Error in 2467ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:56:in `block (2 levels) in starship'
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F48%2F" for 127.0.0.1 at 2019-03-24 17:59:17 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/48/"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 1924ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    50:   </ul>
+    51:   <b> Pilotos: </b>
+    52:   <ul>
+    53:     <% @characters.each do |character| %>
+    54:     <li>
+    55:       <%= link_to character['name'], character_path(character_url: character['url']) %>
+    56:     </li>
+  
+app/views/movies/starship.html.erb:53:in `_app_views_movies_starship_html_erb___3315455876599150787_70252045297440'
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F48%2F" for 127.0.0.1 at 2019-03-24 17:59:24 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/48/"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 1885ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    50:   </ul>
+    51:   <b> Pilotos: </b>
+    52:   <ul>
+    53:     <% @characters.each do |character| %>
+    54:     <li>
+    55:       <%= link_to character['name'], character_path(character_url: character['url']) %>
+    56:     </li>
+  
+app/views/movies/starship.html.erb:53:in `_app_views_movies_starship_html_erb___3315455876599150787_70252111536520'
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F48%2F" for 127.0.0.1 at 2019-03-24 18:00:28 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/48/"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 1672ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F48%2F" for 127.0.0.1 at 2019-03-24 18:01:40 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/48/"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1793ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-24 18:01:47 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/5/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 4996ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F49%2F" for 127.0.0.1 at 2019-03-24 18:01:55 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/49/"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1924ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character?character_url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F35%2F" for 127.0.0.1 at 2019-03-24 18:01:59 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/35/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 2548ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/starship?starship_url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F64%2F" for 127.0.0.1 at 2019-03-24 18:02:05 -0300
+Processing by MoviesController#starship as HTML
+  Parameters: {"starship_url"=>"https://swapi.co/api/starships/64/"}
+  Rendering movies/starship.html.erb within layouts/application
+  Rendered movies/starship.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1915ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F6%2F" for 127.0.0.1 at 2019-03-24 18:02:09 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/6/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 4522ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F6%2F" for 127.0.0.1 at 2019-03-24 18:08:31 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/6/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 4744ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planet?planet_url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F17%2F" for 127.0.0.1 at 2019-03-24 18:08:37 -0300
+Processing by MoviesController#planet as HTML
+  Parameters: {"planet_url"=>"https://swapi.co/api/planets/17/"}
+  Rendering movies/planet.html.erb within layouts/application
+  Rendered movies/planet.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 954ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F6%2F" for 127.0.0.1 at 2019-03-24 18:08:43 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/6/"}
+Started GET "/planet?planet_url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F1%2F" for 127.0.0.1 at 2019-03-24 18:08:44 -0300
+Processing by MoviesController#planet as HTML
+  Parameters: {"planet_url"=>"https://swapi.co/api/planets/1/"}
+  Rendering movies/planet.html.erb within layouts/application
+  Rendered movies/planet.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 3316ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 5466ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F4%2F" for 127.0.0.1 at 2019-03-24 18:08:50 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/4/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 3900ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character?character_url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F1%2F" for 127.0.0.1 at 2019-03-24 18:08:59 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/1/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1511ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F6%2F" for 127.0.0.1 at 2019-03-24 18:09:03 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/6/"}
+Started GET "/planet?planet_url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F18%2F" for 127.0.0.1 at 2019-03-24 18:09:05 -0300
+Processing by MoviesController#planet as HTML
+  Parameters: {"planet_url"=>"https://swapi.co/api/planets/18/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 4880ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering movies/planet.html.erb within layouts/application
+  Rendered movies/planet.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 3897ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/character?character_url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F33%2F" for 127.0.0.1 at 2019-03-24 18:09:20 -0300
+Processing by MoviesController#character as HTML
+  Parameters: {"character_url"=>"https://swapi.co/api/people/33/"}
+  Rendering movies/character.html.erb within layouts/application
+  Rendered movies/character.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1086ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movie?movie_url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F6%2F" for 127.0.0.1 at 2019-03-24 18:09:24 -0300
+Processing by MoviesController#show as HTML
+  Parameters: {"movie_url"=>"https://swapi.co/api/films/6/"}
+Started GET "/planet?planet_url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F9%2F" for 127.0.0.1 at 2019-03-24 18:09:27 -0300
+Processing by MoviesController#planet as HTML
+  Parameters: {"planet_url"=>"https://swapi.co/api/planets/9/"}
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (13.3ms)
+  Rendering movies/planet.html.erb within layouts/application
+  Rendered movies/planet.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 5215ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1920ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
