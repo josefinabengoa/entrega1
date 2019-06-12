@@ -1,14 +1,14 @@
-<h1> <%= @movie['title'] %> - Episode <%= @movie['episode_id'] %> </h1>
-<p> <%= @movie['opening_crawl'] %> </p>
+<h1> <%= @movie['title'] %> - Episode <%= @movie['episodeID'] %> </h1>
+<p> <%= @movie['openingCrawl'] %> </p>
 
 <div>
   <b> Director: </b> <span> <%= @movie['director'] %> </span>
 </div>
 <div>
-  <b> Productor(es): </b> <span> <%= @movie['producer'] %> </span>
+  <b> Productor(es): </b> <span> <%= @movie['producers'] %> </span>
 </div>
 <div>
-  <b> Fecha de estreno: </b> <span> <%= @movie['release_date'] %> </span>
+  <b> Fecha de estreno: </b> <span> <%= @movie['releaseDate'] %> </span>
 </div>
 
 </br>
@@ -18,7 +18,7 @@
   <ul>
     <% @characters.each do |character| %>
     <li>
-      <%= link_to character['name'], character_path(character_url: character['url']) %>
+      <%= link_to character['node']['name'], character_path(character_name: character['node']['name']) %>
     </li>
     <% end %>
   </ul>
@@ -26,7 +26,7 @@
   <ul>
     <% @starships.each do |starship| %>
     <li>
-      <%= link_to starship['name'], starship_path(starship_url: starship['url']) %>
+      <%= link_to starship['node']['name'], starship_path(starship_name: starship['node']['name']) %>
     </li>
     <% end %>
   </ul>
@@ -34,7 +34,7 @@
   <ul>
     <% @planets.each do |planet| %>
     <li>
-      <%= link_to planet['name'], planet_path(planet_url: planet['url']) %>
+      <%= link_to planet['node']['name'], planet_path(planet_name: planet['node']['name']) %>
     </li>
     <% end %>
   </ul>

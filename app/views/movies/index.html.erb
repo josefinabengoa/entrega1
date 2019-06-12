@@ -9,14 +9,19 @@
     <th>Director</th>
     <th></th>
   </tr>
-  <% @movies.each do |movie| %>
+  <%id = 0
+    @movies.each do |moviee|
+    id = id + 1
+    movie = moviee["node"]
+    %>
+
     <tr>
       <td> <%= movie["title"] %> </td>
-      <td> <%= movie["release_date"] %> </td>
-      <td> <%= movie["episode_id"] %> </td>
-      <td> <%= movie["producer"] %> </td>
+      <td> <%= movie["releaseDate"] %> </td>
+      <td> <%= movie["episodeID"] %> </td>
+      <td> <%= movie["producers"] %> </td>
       <td> <%= movie["director"] %> </td>
-      <td> <%= button_to 'Ver Mas', movie_path, method: :get, params: { movie_url: movie["url"] } %> </td>
+      <td> <%= button_to 'Ver Mas', movie_path, method: :get, params: { movie_title: movie["title"]  } %> </td>
     </tr>
   <% end %>
 </table>

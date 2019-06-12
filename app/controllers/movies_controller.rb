@@ -1,84 +1,228 @@
 class MoviesController < ApplicationController
   def index
-    @movies = JSON.parse(HTTParty.get('https://swapi.co/api/films').body)["results"]
+    @movieshttp = JSON.parse(HTTParty.get('https://swapi.co/api/films').body)["results"]
+    @movies = (HTTParty.get('https://swapi-graphql-integracion-t3.herokuapp.com/',
+    :body => { "query": "{
+  allFilms {
+    edges {
+      node {
+        title
+        episodeID
+        openingCrawl
+        director
+        producers
+        releaseDate
+      }
+    }
+  }
+}
+"}.to_json, :headers => { 'Content-Type' => 'application/json' }))
+    @movies = @movies["data"]["allFilms"]["edges"]
   end
+
+
 
   def show
-    @movie = JSON.parse(HTTParty.get(params['movie_url']).body)
-    threads = []
-    @characters = []
-    @starships = []
-    @planets = []
-    @movie['characters'].each do |character_url|
-      threads << Thread.new do
-        @characters << JSON.parse(HTTParty.get(character_url).body)
-      end
-    end
-    @movie['starships'].each do |starship_url|
-      threads << Thread.new do
-        @starships << JSON.parse(HTTParty.get(starship_url).body)
-      end
-    end
-    @movie['planets'].each do |planet_url|
-      threads << Thread.new do
-        @planets << JSON.parse(HTTParty.get(planet_url).body)
-      end
-    end
-    threads.each &:join
+    @movieshttp = JSON.parse(HTTParty.get('https://swapi.co/api/films').body)["results"]
+    @movies = (HTTParty.get('https://swapi-graphql-integracion-t3.herokuapp.com/',
+    :body => { "query": "{
+  allFilms {
+    edges {
+      node {
+        title
+        openingCrawl
+        director
+        producers
+        releaseDate
+        starshipConnection {
+          edges {
+            node {
+              name
+            }
+          }
+        }
+        characterConnection {
+          edges {
+            node {
+              name
+            }
+          }
+        }
+        planetConnection {
+          edges {
+            node {
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}
+"}.to_json, :headers => { 'Content-Type' => 'application/json' }))
+  @movies = @movies["data"]["allFilms"]["edges"]
+  @movies.each do |dic|
+    char = dic["node"]
+    if char['title'] == params['movie_title']
+      @movie = char
+  @characters = @movie["characterConnection"]['edges']
+  @starships = @movie["starshipConnection"]['edges']
+  @planets = @movie["planetConnection"]["edges"]
+  end
+  end
   end
 
+
+
   def character
-    @character = JSON.parse(HTTParty.get(params['character_url']).body)
-    @home_planet = JSON.parse(HTTParty.get(@character['homeworld']).body)
-    threads = []
-    @starships = []
-    @movies = []
-    @character['starships'].each do |starship_url|
-      threads << Thread.new do
-        @starships << JSON.parse(HTTParty.get(starship_url).body)
-      end
+    @movieshttp = JSON.parse(HTTParty.get('https://swapi.co/api/films').body)["results"]
+    @character = (HTTParty.get('https://swapi-graphql-integracion-t3.herokuapp.com/',
+    :body => { "query": "{
+  allPeople {
+    edges {
+      node {
+        name
+    	birthYear
+    eyeColor
+    gender
+    hairColor
+    height
+    mass
+    homeworld {
+      name
+    }
+    filmConnection{
+      edges{
+        node{
+          title
+        }
+      }
+    }
+    starshipConnection
+    {
+      edges{
+        node{
+          name
+        }
+      }
+    }
+      }
+    }
+  }
+}
+"}.to_json, :headers => { 'Content-Type' => 'application/json' }))
+    @characters = @character["data"]["allPeople"]["edges"]
+    @characters.each do |dic|
+      char = dic["node"]
+      if char['name'] == params['character_name']
+        @character = char
+    @home_planet = @character['homeworld']
+    @starships = @character["starshipConnection"]['edges']
+    @movies = @character["filmConnection"]["edges"]
     end
-    @character['films'].each do |film_url|
-      threads << Thread.new do
-        @movies << JSON.parse(HTTParty.get(film_url).body)
-      end
-    end
-    threads.each &:join
+  end
   end
 
   def starship
-    @starship = JSON.parse(HTTParty.get(params['starship_url']).body)
-    threads = []
-    @characters = []
-    @movies = []
-    @starship['pilots'].each do |pilot_url|
-      threads << Thread.new do
-        @characters << JSON.parse(HTTParty.get(pilot_url).body)
-      end
+    @movieshttp = JSON.parse(HTTParty.get('https://swapi.co/api/films').body)["results"]
+    @starships = (HTTParty.get('https://swapi-graphql-integracion-t3.herokuapp.com/',
+    :body => { "query": "{
+  allStarships {
+    edges {
+      node {
+        name
+        model
+        starshipClass
+        manufacturers
+        costInCredits
+        length
+   			 crew
+        passengers
+        maxAtmospheringSpeed
+        hyperdriveRating
+        MGLT
+        cargoCapacity
+        consumables
+    filmConnection{
+      edges{
+        node{
+          title
+        }
+      }
+    }
+    pilotConnection
+    {
+      edges{
+        node{
+          name
+        }
+      }
+    }
+      }
+    }
+  }
+}
+    "}.to_json, :headers => { 'Content-Type' => 'application/json' }))
+    @starships = @starships["data"]["allStarships"]["edges"]
+    @starships.each do |dic|
+      char = dic["node"]
+      if char['name'] == params['starship_name']
+        @starship = char
+    puts "STARSHIP"
+    puts @starship
+    @characters = @starship["pilotConnection"]['edges']
+    @movies = @starship["filmConnection"]["edges"]
     end
-    @starship['films'].each do |film_url|
-      threads << Thread.new do
-        @movies << JSON.parse(HTTParty.get(film_url).body)
-      end
     end
-    threads.each &:join
   end
 
+
+
+
   def planet
-    @planet = JSON.parse(HTTParty.get(params['planet_url']).body)
-    threads = []
-    @characters = []
-    @movies = []
-    @planet['residents'].each do |pilot_url|
-      threads << Thread.new do
-        @characters << JSON.parse(HTTParty.get(pilot_url).body)
-      end
+    @movieshttp = JSON.parse(HTTParty.get('https://swapi.co/api/films').body)["results"]
+    @planets = (HTTParty.get('https://swapi-graphql-integracion-t3.herokuapp.com/',
+    :body => { "query": "{
+  allPlanets {
+    edges {
+      node {
+        name
+        diameter
+        rotationPeriod
+        orbitalPeriod
+        gravity
+        population
+        climates
+        terrains
+        surfaceWater
+        residentConnection {
+          edges {
+            node {
+              name
+            }
+          }
+        }
+        filmConnection {
+          edges {
+            node {
+              title
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+"}.to_json, :headers => { 'Content-Type' => 'application/json' }))
+    @planets = @planets["data"]["allPlanets"]["edges"]
+    @planets.each do |dic|
+      char = dic["node"]
+      if char['name'] == params['planet_name']
+        @planet = char
+    @characters = @planet['residentConnection']['edges']
+    @movies = @planet["filmConnection"]["edges"]
     end
-    @planet['films'].each do |film_url|
-      threads << Thread.new do
-        @movies << JSON.parse(HTTParty.get(film_url).body)
-      end
-    end
-    threads.each &:join
   end
+end
 end

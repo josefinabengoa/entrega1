@@ -4,10 +4,10 @@
   <b> Diametro: </b> <span> <%= @planet['diameter'] %> </span>
 </div>
 <div>
-  <b> Periodo de rotacion: </b> <span> <%= @planet['rotation_period'] %> </span>
+  <b> Periodo de rotacion: </b> <span> <%= @planet['rotationPeriod'] %> </span>
 </div>
 <div>
-  <b> Periodo de orbita: </b> <span> <%= @planet['orbital_period'] %> </span>
+  <b> Periodo de orbita: </b> <span> <%= @planet['orbitalPeriod'] %> </span>
 </div>
 <div>
   <b> Gravedad: </b> <span> <%= @planet['gravity'] %> </span>
@@ -16,13 +16,13 @@
   <b> Poblacion: </b> <span> <%= @planet['population'] %> </span>
 </div>
 <div>
-  <b> Clima: </b> <span> <%= @planet['climate'] %> </span>
+  <b> Clima: </b> <span> <%= @planet['climates'] %> </span>
 </div>
 <div>
-  <b> Terreno: </b> <span> <%= @planet['terrain'] %> </span>
+  <b> Terreno: </b> <span> <%= @planet['terrains'] %> </span>
 </div>
 <div>
-  <b> Porcentaje acuatico de la superficie: </b> <span> <%= @planet['surface_water'] %> </span>
+  <b> Porcentaje acuatico de la superficie: </b> <span> <%= @planet['surfaceWater'] %> </span>
 </div>
 <div>
 
@@ -33,7 +33,7 @@
   <ul>
     <% @movies.each do |movie| %>
     <li>
-      <%= link_to movie['title'], movie_path(movie_url: movie['url']) %>
+      <%= link_to movie['node']['title'], movie_path(movie_title: movie['node']['title']) %>
     </li>
     <% end %>
   </ul>
@@ -41,7 +41,7 @@
   <ul>
     <% @characters.each do |character| %>
     <li>
-      <%= link_to character['name'], character_path(character_url: character['url']) %>
+      <%= link_to character['node']['name'], character_path(character_name: character['node']['name']) %>
     </li>
     <% end %>
   </ul>

@@ -4,13 +4,13 @@
   <b> Modelo: </b> <span> <%= @starship['model'] %> </span>
 </div>
 <div>
-  <b> Clase: </b> <span> <%= @starship['starship_class'] %> </span>
+  <b> Clase: </b> <span> <%= @starship['starshipClass'] %> </span>
 </div>
 <div>
   <b> Fabricante: </b> <span> <%= @starship['manufacturer'] %> </span>
 </div>
 <div>
-  <b> Precio (creditos galacticos): </b> <span> <%= @starship['cost_in_credits'] %> </span>
+  <b> Precio (creditos galacticos): </b> <span> <%= @starship['costInCredits'] %> </span>
 </div>
 <div>
   <b> Largo (m): </b> <span> <%= @starship['length'] %> </span>
@@ -22,16 +22,16 @@
   <b> Maximo de pasajeros: </b> <span> <%= @starship['passengers'] %> </span>
 </div>
 <div>
-  <b> Velocidad maxima: </b> <span> <%= @starship['max_atmosphere_speed'] %> </span>
+  <b> Velocidad maxima: </b> <span> <%= @starship['maxAtmospheringSpeed'] %> </span>
 </div>
 <div>
-  <b> Hiperdrive: </b> <span> <%= @starship['hyperdrive_rating'] %> </span>
+  <b> Hiperdrive: </b> <span> <%= @starship['hyperdriveRating'] %> </span>
 </div>
 <div>
   <b> MGLT: </b> <span> <%= @starship['MGLT'] %> </span>
 </div>
 <div>
-  <b> Capacidad Cargo: </b> <span> <%= @starship['cargo_capacity'] %> </span>
+  <b> Capacidad Cargo: </b> <span> <%= @starship['cargoCapacity'] %> </span>
 </div>
 <div>
   <b> Autonomia de recursos: </b> <span> <%= @starship['consumables'] %> </span>
@@ -44,7 +44,7 @@
   <ul>
     <% @movies.each do |movie| %>
     <li>
-      <%= link_to movie['title'], movie_path(movie_url: movie['url']) %>
+      <%= link_to movie['node']['title'], movie_path(movie_title: movie['node']['title']) %>
     </li>
     <% end %>
   </ul>
@@ -52,7 +52,7 @@
   <ul>
     <% @characters.each do |character| %>
     <li>
-      <%= link_to character['name'], character_path(character_url: character['url']) %>
+      <%= link_to character['node']['name'], character_path(character_name: character['node']['name']) %>
     </li>
     <% end %>
   </ul>

@@ -1,16 +1,16 @@
 <h1> <%= @character['name'] %> </h1>
 
 <div>
-  <b> Año de nacimiento: </b> <span> <%= @character['birth_year'] %> </span>
+  <b> Año de nacimiento: </b> <span> <%= @character['birthYear'] %> </span>
 </div>
 <div>
-  <b> Color de ojos: </b> <span> <%= @character['eye_color'] %> </span>
+  <b> Color de ojos: </b> <span> <%= @character['eyeColor'] %> </span>
 </div>
 <div>
   <b> Sexo: </b> <span> <%= @character['gender'] %> </span>
 </div>
 <div>
-  <b> Color de pelo: </b> <span> <%= @character['hair_color'] %> </span>
+  <b> Color de pelo: </b> <span> <%= @character['hairColor'] %> </span>
 </div>
 <div>
   <b> Altura(cm): </b> <span> <%= @character['height'] %> </span>
@@ -29,7 +29,8 @@
   <ul>
     <% @movies.each do |movie| %>
     <li>
-      <%= link_to movie['title'], movie_path(movie_url: movie['url']) %>
+      <%=
+      link_to movie['node']['title'], movie_path(movie_title: movie['node']['title']) %>
     </li>
     <% end %>
   </ul>
@@ -37,7 +38,7 @@
   <ul>
     <% @starships.each do |starship| %>
     <li>
-      <%= link_to starship['name'], starship_path(starship_url: starship['url']) %>
+      <%= link_to starship['node']['name'], starship_path(starship_name: starship['node']['name']) %>
     </li>
     <% end %>
   </ul>
